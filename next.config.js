@@ -4,6 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Desabilitar algumas otimizações que podem causar problemas
+  swcMinify: false,
+  reactStrictMode: false
 };
 
 module.exports = nextConfig;
